@@ -939,6 +939,7 @@
   line-height: 130%;
   letter-spacing: 1px;
   padding-bottom: 24px;
+  width: 600px;
 }
 .header__text {
   color: rgb(120, 122, 128);
@@ -993,6 +994,626 @@
   font-size: 14px;
   font-weight: 700;
   background-color: transparent;
+}
+
+.application {
+  background-image: url(./img/image-6.jpeg);
+  display: flex;
+  justify-content: end;
+  padding-top: 89px;
+  padding-bottom: 80px;
+}
+.application__form {
+  width: 495px;
+  height: 666px;
+  box-sizing: border-box;
+  border: 1px solid rgb(229, 232, 237);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.05), 0px 12px 10px -6px rgba(30, 33, 44, 0.08), 0px 26px 24px -10px rgba(30, 33, 44, 0.1), 0px 60px 80px -20px rgba(30, 33, 44, 0.16);
+  background: rgb(255, 255, 255);
+  padding: 40px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.application__form__header {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 4px;
+}
+.application__form__tittle {
+  color: rgb(66, 69, 81);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.application__form__input {
+  width: 415px;
+  height: 44px;
+  box-sizing: border-box;
+  border: 1px solid rgb(215, 218, 221);
+  border-radius: 4px;
+  background: rgb(244, 245, 247);
+  color: rgb(154, 156, 165);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 16px;
+}
+.application__form__input_mes {
+  width: 415px;
+  height: 66px;
+  text-align: start;
+}
+.application__form__checkbox {
+  display: flex;
+  gap: 16px;
+  align-items: start;
+}
+.application__form__checkbox_input {
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.application__form__checkbox_input:active {
+  border: 1px solid rgb(255, 90, 48);
+  background: rgb(255, 90, 48);
+}
+.application__form__checkbox_label {
+  color: rgb(66, 69, 81);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+}
+.application__form__button {
+  width: 174px;
+  height: 44px;
+  border-radius: 4px;
+  background: rgb(255, 90, 48);
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer {
+  padding-top: 82px;
+  background: rgb(30, 33, 44);
+  display: flex;
+  flex-direction: column;
+}
+.footer__top {
+  padding-bottom: 50px;
+  display: flex;
+  gap: 242px;
+}
+.footer__top__header {
+  display: flex;
+  gap: 62px;
+}
+.footer__top__links {
+  display: flex;
+  gap: 20px;
+}
+.footer__top__link__png {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+.footer__top__text {
+  padding-top: 25px;
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  width: 493px;
+}
+.footer__top__form__tittle {
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+.footer__top__form__label {
+  display: flex;
+  border-radius: 0px 4px 4px 0px;
+  padding-bottom: 16px;
+}
+.footer__top__form__input {
+  width: 364px;
+  height: 44px;
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.6;
+  color: rgb(255, 255, 255);
+}
+.footer__top__form__btn {
+  width: 131px;
+  height: 45px;
+  background: rgb(255, 90, 48);
+  letter-spacing: 0.5px;
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.footer__top__form__text {
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.footer__bottom {
+  padding-bottom: 60px;
+  display: flex;
+  gap: 180px;
+}
+.footer__bottom__left {
+  display: flex;
+  gap: 125px;
+}
+.footer__bottom__info__tittle {
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 13px;
+}
+.footer__bottom__info__stroke {
+  display: flex;
+  gap: 4px;
+}
+.footer__bottom__info__link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer__bottom__info__link__content {
+  opacity: 0.6;
+}
+.footer__base {
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__base__text {
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer__base__btnup {
+  display: flex;
+  gap: 16px;
+  text-decoration: none;
+}
+.footer__base__btnup__text {
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer__base__btn {
+  width: 40px;
+  height: 40px;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(244, 245, 247);
+  background-image: url(./img/image-servise.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.header__top {
+  display: flex;
+  gap: 180px;
+}
+.header__nav {
+  display: flex;
+  gap: 63px;
+  align-items: center;
+}
+.header__logo {
+  width: 104.5px;
+  height: 19.6px;
+}
+.header__links {
+  display: flex;
+  gap: 40px;
+}
+.header__link {
+  width: 71px;
+  color: rgb(66, 69, 81);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.header__contacts {
+  display: flex;
+  gap: 40px;
+}
+.header__contact {
+  display: flex;
+  gap: 12px;
+  width: 175px;
+}
+.header__contact__img {
+  width: 40px;
+  height: 40px;
+}
+.header__contact__info {
+  display: flex;
+  flex-direction: column;
+}
+.header__contact__action {
+  color: rgb(66, 69, 81);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 700;
+}
+.header__pages {
+  display: flex;
+  padding-bottom: 40px;
+  gap: 8px;
+}
+.header__pages__name {
+  color: rgb(66, 69, 81);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.header__pages__name:hover {
+  color: rgb(154, 156, 165);
+}
+.header__tittle {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 1px;
+  padding-bottom: 24px;
+}
+.header__text {
+  color: rgb(120, 122, 128);
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 400;
+  width: 600px;
+  height: 90px;
+}
+
+.content {
+  padding-top: 120px;
+}
+.content__item {
+  display: flex;
+  gap: 105px;
+  padding-bottom: 180px;
+}
+.content__item__img {
+  width: 705px;
+  height: 440px;
+}
+.content__item__description {
+  display: flex;
+  flex-direction: column;
+}
+.content__item__header {
+  color: rgb(30, 33, 44);
+  font-family: Lato;
+  font-size: 46px;
+  font-weight: 900;
+  padding-bottom: 60px;
+}
+.content__item__tittle {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+.content__item__text {
+  width: 575px;
+  color: rgb(120, 122, 128);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 48px;
+}
+.content__item__box {
+  display: flex;
+  gap: 20px;
+}
+.content__item__box__png {
+  width: 24px;
+  height: 24px;
+}
+.content__section {
+  padding-bottom: 120px;
+}
+.content__section__tittle {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  padding-bottom: 60px;
+}
+.content__section__items {
+  display: flex;
+  gap: 30px;
+}
+.content__section__item {
+  width: 285px;
+  height: 192px;
+}
+.content__section__item__top {
+  display: flex;
+  gap: 23px;
+  align-items: center;
+  padding-bottom: 16px;
+}
+.content__section__item__num {
+  color: rgb(215, 218, 221);
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+}
+.content__section__item__line {
+  bottom: none;
+  border: 1px dashed rgb(215, 218, 221);
+}
+.content__section__item__tittle {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+.content__section__item__text {
+  color: rgb(120, 122, 128);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.benefits {
+  background: rgb(30, 33, 44);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.benefits__tittle {
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  padding-top: 80px;
+  padding-bottom: 24px;
+}
+.benefits__text {
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.6;
+  width: 810px;
+}
+.benefits__items {
+  display: flex;
+  gap: 94px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.benefits__item__img {
+  width: 48px;
+  height: 48px;
+}
+.benefits__item__tittle {
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+}
+.benefits__item__text {
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.6;
+  width: 285px;
+  height: 78px;
+}
+.benefits__line {
+  opacity: 0.4;
+  width: 0;
+  height: 188px;
+}
+.benefits__btn {
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 390px;
+  height: 52px;
+  border-radius: 4px;
+  background: rgb(255, 90, 48);
+}
+
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 125px;
+}
+.portfolio__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.portfolio__tittle {
+  text-align: left;
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+}
+.portfolio__buttons {
+  display: flex;
+  gap: 18px;
+  align-items: end;
+}
+.portfolio__button {
+  border: none;
+  background-color: transparent;
+}
+.portfolio__content {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+.portfolio__content__item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 390px;
+  height: 440px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+  background: rgb(255, 255, 255);
+}
+.portfolio__content__img {
+  width: 390px;
+  height: 345px;
+  border-radius: 4px 4px 0px 0px;
+}
+.portfolio__content__tittle {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 16px;
+  padding-bottom: 4px;
+}
+.portfolio__content__text {
+  color: rgb(120, 122, 128);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+}
+.portfolio__footer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+}
+.portfolio__footer__text {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-weight: 700;
+}
+.portfolio__footer__button {
+  width: 224px;
+  height: 52px;
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background: rgb(255, 90, 48);
+}
+
+.pricing {
+  background: rgb(244, 245, 247);
+  padding-bottom: 120px;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.pricing__tittle {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+}
+.pricing__text {
+  color: rgb(120, 122, 128);
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 60px;
+  padding-top: 24px;
+}
+
+.support {
+  background: rgb(244, 245, 247);
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.support__header {
+  padding-bottom: 170px;
+}
+.support__header__tittle {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0%;
+  padding-bottom: 20px;
 }
 
 .application {
