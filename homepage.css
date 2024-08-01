@@ -1,0 +1,869 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.center {
+  padding-left: 345px;
+  padding-right: 345px;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  gap: 180px;
+}
+.header__nav {
+  display: flex;
+  gap: 63px;
+  align-items: center;
+}
+.header__logo {
+  width: 104.5px;
+  height: 19.6px;
+}
+.header__links {
+  display: flex;
+  gap: 40px;
+}
+.header__link {
+  width: 71px;
+  color: rgb(66, 69, 81);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.header__contacts {
+  display: flex;
+  gap: 40px;
+}
+.header__contact {
+  display: flex;
+  gap: 12px;
+  width: 175px;
+}
+.header__contact__img {
+  width: 40px;
+  height: 40px;
+}
+.header__contact__info {
+  display: flex;
+  flex-direction: column;
+}
+.header__contact__action {
+  color: rgb(66, 69, 81);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.cover {
+  background-image: url(./img/bg-image.jpeg);
+}
+.cover__header {
+  padding-top: 220px;
+  padding-bottom: 24px;
+  font-family: Ubuntu;
+  font-size: 72px;
+  font-weight: 700;
+  width: 577px;
+}
+.cover__header_white {
+  color: white;
+}
+.cover__header_orange {
+  color: rgb(255, 90, 48);
+}
+.cover__text {
+  width: 595px;
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 61px;
+}
+.cover__buttons {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 179px;
+  align-items: center;
+}
+.cover__button {
+  width: 224px;
+  height: 52px;
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: calc(52px - 50% - 16px);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.cover__button_white {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+}
+.cover__button_orange {
+  border-radius: 4px;
+  background: rgb(255, 90, 48);
+}
+.cover__pages {
+  display: flex;
+  gap: 2px;
+  padding-bottom: 127px;
+}
+.cover__page {
+  background-color: transparent;
+  width: 178px;
+  height: 54px;
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-weight: 700;
+  opacity: 0.6;
+  border: 0cap;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+.cover__page:hover {
+  opacity: 1;
+}
+
+.content__head {
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+  text-align: center;
+  align-items: center;
+}
+.content__head__header {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0%;
+}
+.content__head__text {
+  color: rgb(120, 122, 128);
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  padding-top: 24px;
+  padding-bottom: 60px;
+}
+.content__head__video {
+  width: 1230px;
+  height: 500px;
+  border-radius: 4px;
+  background: rgb(30, 33, 44);
+  opacity: 0.6;
+}
+.content__center {
+  padding-top: 180px;
+  padding-bottom: 120px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content__center__header {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0%;
+}
+.content__center__text {
+  color: rgb(120, 122, 128);
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  padding-top: 24px;
+  padding-bottom: 60px;
+}
+.content__center__values {
+  display: flex;
+}
+.content__center__value {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content__center__value__img {
+  width: 48px;
+  height: 48px;
+  padding-bottom: 24px;
+}
+.content__center__value__header {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+.content__center__value__text {
+  width: 285px;
+  color: rgb(120, 122, 128);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.content__center__value__line {
+  margin-left: 94px;
+  margin-right: 94px;
+}
+.content__forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content__forms__header {
+  padding-top: 48px;
+  padding-bottom: 32px;
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-weight: 700;
+}
+.content__forms__form {
+  display: flex;
+  gap: 24px;
+}
+.content__forms__tittle {
+  display: flex;
+  flex-direction: column;
+  color: rgb(66, 69, 81);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+}
+.content__forms__input {
+  box-sizing: border-box;
+  border: 1px solid rgb(215, 218, 221);
+  border-radius: 4px;
+  background: rgb(244, 245, 247);
+  width: 260px;
+  height: 44px;
+  color: rgb(154, 156, 165);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 8px;
+  padding-left: 18px;
+}
+.content__forms__button {
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 104px;
+  height: 44px;
+  align-items: center;
+  padding: 0px 32px 0px 32px;
+  border-radius: 4px;
+  background: rgb(255, 90, 48);
+  margin-top: 23px;
+}
+.content__part {
+  padding-top: 120px;
+  background: rgb(244, 245, 247);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.content__part__header {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0%;
+}
+.content__part__text {
+  color: rgb(120, 122, 128);
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  padding-top: 24px;
+  padding-bottom: 60px;
+}
+.content__part__items {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 85px;
+}
+.content__part__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(229, 232, 237);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+  background: rgb(255, 255, 255);
+}
+.content__part__item_dark {
+  background-image: url(./img/image.jpeg);
+}
+.content__part__item__box {
+  width: 125px;
+  height: 106px;
+  padding: 90px 80px;
+}
+.content__part__item__img {
+  width: 52px;
+  height: 48.55px;
+}
+.content__part__item__tittle {
+  width: 125px;
+  height: 30px;
+  align-items: center;
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+}
+.content__part__item__tittle_dark {
+  color: white;
+}
+.content__part__footer {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding-bottom: 85px;
+}
+.content__part__footer__text {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-weight: 700;
+}
+.content__part__footer__button {
+  width: 207px;
+  height: 52px;
+  border-radius: 4px;
+  background: rgb(255, 90, 48);
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 125px;
+}
+.portfolio__header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.portfolio__tittle {
+  width: 705px;
+  height: 120px;
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+}
+.portfolio__buttons {
+  display: flex;
+  gap: 18px;
+  align-items: end;
+}
+.portfolio__button {
+  border: none;
+  background-color: transparent;
+}
+.portfolio__content {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+.portfolio__content__item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 390px;
+  height: 440px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+  background: rgb(255, 255, 255);
+}
+.portfolio__content__img {
+  width: 390px;
+  height: 345px;
+  border-radius: 4px 4px 0px 0px;
+}
+.portfolio__content__tittle {
+  color: rgb(120, 122, 128);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 50px;
+}
+.portfolio__footer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.portfolio__footer__text {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-weight: 700;
+}
+.portfolio__footer__button {
+  width: 224px;
+  height: 52px;
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background: rgb(255, 90, 48);
+}
+
+.support {
+  background: rgb(244, 245, 247);
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.support__header {
+  padding-bottom: 170px;
+}
+.support__header__tittle {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0%;
+  padding-bottom: 20px;
+}
+.support__content {
+  display: flex;
+  gap: 135px;
+}
+.support__content__right {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.support__content__right__text {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+}
+.support__content__right__avatar {
+  width: 72px;
+  height: 72px;
+}
+.support__content__img {
+  width: 495px;
+  height: 550px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 180px;
+  padding-bottom: 120px;
+}
+.info__header {
+  padding-bottom: 180px;
+}
+.info__header__tittle {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  padding-bottom: 60px;
+}
+.info__header__items {
+  display: flex;
+  gap: 48px;
+}
+.info__header__item__border {
+  padding-bottom: 20px;
+}
+.info__header__item__text {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+}
+.info__news {
+  display: grid;
+  padding-bottom: 80px;
+}
+.info__news__header {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  padding-bottom: 60px;
+}
+.info__news__items {
+  display: flex;
+  align-items: start;
+  text-align: center;
+  gap: 30px;
+}
+.info__news__item {
+  width: 705px;
+  height: 540px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+  background: rgb(255, 255, 255);
+}
+.info__news__item__smalls {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.info__news__item__small {
+  width: 490px;
+  height: 255px;
+}
+.info__news__img {
+  width: 705px;
+  height: 360px;
+}
+.info__news__img__small {
+  width: 495px;
+  height: 156px;
+}
+.info__news__tittle {
+  text-align: left;
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+}
+.info__news__tittle__small {
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+.info__news__tittle:hover {
+  color: rgb(255, 90, 48);
+}
+.info__news__links {
+  display: flex;
+  gap: 5px;
+  padding-left: 24px;
+}
+.info__news__link {
+  text-decoration: none;
+  color: rgb(120, 122, 128);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+}
+.info__news__link_svg {
+  width: 16px;
+  height: 16px;
+}
+.info__footer {
+  display: flex;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+}
+.info__footer__text {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-weight: 700;
+}
+.info__footer__button {
+  width: 224px;
+  height: 52px;
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background: rgb(255, 90, 48);
+}
+
+.application {
+  background-image: url(./img/image-6.jpeg);
+  display: flex;
+  justify-content: end;
+  padding-top: 89px;
+  padding-bottom: 80px;
+}
+.application__form {
+  width: 495px;
+  height: 666px;
+  box-sizing: border-box;
+  border: 1px solid rgb(229, 232, 237);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.05), 0px 12px 10px -6px rgba(30, 33, 44, 0.08), 0px 26px 24px -10px rgba(30, 33, 44, 0.1), 0px 60px 80px -20px rgba(30, 33, 44, 0.16);
+  background: rgb(255, 255, 255);
+  padding: 40px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.application__form__header {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 4px;
+}
+.application__form__tittle {
+  color: rgb(66, 69, 81);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.application__form__input {
+  width: 415px;
+  height: 44px;
+  box-sizing: border-box;
+  border: 1px solid rgb(215, 218, 221);
+  border-radius: 4px;
+  background: rgb(244, 245, 247);
+  color: rgb(154, 156, 165);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 16px;
+}
+.application__form__input_mes {
+  width: 415px;
+  height: 66px;
+  text-align: start;
+}
+.application__form__checkbox {
+  display: flex;
+  gap: 16px;
+  align-items: start;
+}
+.application__form__checkbox_input {
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.application__form__checkbox_input:active {
+  border: 1px solid rgb(255, 90, 48);
+  background: rgb(255, 90, 48);
+}
+.application__form__checkbox_label {
+  color: rgb(66, 69, 81);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+}
+.application__form__button {
+  width: 174px;
+  height: 44px;
+  border-radius: 4px;
+  background: rgb(255, 90, 48);
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer {
+  padding-top: 82px;
+  background: rgb(30, 33, 44);
+  display: flex;
+  flex-direction: column;
+}
+.footer__top {
+  padding-bottom: 50px;
+  display: flex;
+  gap: 242px;
+}
+.footer__top__header {
+  display: flex;
+  gap: 62px;
+}
+.footer__top__links {
+  display: flex;
+  gap: 20px;
+}
+.footer__top__link__png {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+.footer__top__text {
+  padding-top: 25px;
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  width: 493px;
+}
+.footer__top__form__tittle {
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+.footer__top__form__label {
+  display: flex;
+  border-radius: 0px 4px 4px 0px;
+  padding-bottom: 16px;
+}
+.footer__top__form__input {
+  width: 364px;
+  height: 44px;
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.6;
+  color: rgb(255, 255, 255);
+}
+.footer__top__form__btn {
+  width: 131px;
+  height: 45px;
+  background: rgb(255, 90, 48);
+  letter-spacing: 0.5px;
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.footer__top__form__text {
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.footer__bottom {
+  padding-bottom: 60px;
+  display: flex;
+  gap: 180px;
+}
+.footer__bottom__left {
+  display: flex;
+  gap: 125px;
+}
+.footer__bottom__info__tittle {
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-align: left;
+  text-transform: uppercase;
+  padding-bottom: 13px;
+}
+.footer__bottom__info__stroke {
+  display: flex;
+  gap: 4px;
+}
+.footer__bottom__info__link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer__bottom__info__link__content {
+  opacity: 0.6;
+}
+.footer__base {
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__base__text {
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer__base__btnup {
+  display: flex;
+  gap: 16px;
+  text-decoration: none;
+}
+.footer__base__btnup__text {
+  color: rgb(255, 255, 255);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.footer__base__btn {
+  width: 40px;
+  height: 40px;
+}/*# sourceMappingURL=homepage.css.map */

@@ -1,0 +1,13 @@
+<svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip2_863">
+			<rect id="Linked-In" rx="-0.500000" width="19.000000" height="19.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip2_863)">
+		<path id="Vector" d="M1.66 3.66C1.66 2.56 2.56 1.66 3.66 1.66C4.77 1.66 5.66 2.56 5.66 3.66C5.66 4.77 4.77 5.68 3.66 5.68C2.56 5.68 1.66 4.77 1.66 3.66ZM18.32 18.33L18.33 18.33L18.33 12.21C18.33 9.22 17.68 6.92 14.19 6.92C12.51 6.92 11.38 7.84 10.92 8.72L10.87 8.72L10.87 7.2L7.56 7.2L7.56 18.33L11.01 18.33L11.01 12.82C11.01 11.37 11.28 9.96 13.08 9.96C14.85 9.96 14.88 11.62 14.88 12.91L14.88 18.33L18.32 18.33ZM1.94 7.2L5.39 7.2L5.39 18.33L1.94 18.33L1.94 7.2Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>
