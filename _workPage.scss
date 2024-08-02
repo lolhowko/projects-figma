@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   background: rgb(244, 245, 247);
-  background-image: url(./img/image-servise.png);
+  background-image: url(./img/image-5.png);
   background-position: right;
   background-repeat: no-repeat;
 
@@ -68,18 +68,12 @@
     }
   }
 
-  &__content{
-    padding-top: 80px;
-    padding-bottom: 180px;
-  }
-
   &__pages {
     display: flex;
     padding-bottom: 40px;
     gap: 8px;
 
     &__name {
-      text-decoration: none;
       color: rgb(66, 69, 81);
       font-family: Ubuntu;
       font-size: 14px;
@@ -110,194 +104,49 @@
     width: 600px;
     height: 90px;
   }
-}
 
-.content {
-  padding-top: 120px;
-
-  &__item {
+  &__footer {
     display: flex;
-    gap: 105px;
-    padding-bottom: 180px;
-
-    &__img {
-      width: 705px;
-      height: 440px;
-    }
-
-    &__description {
-      display: flex;
-      flex-direction: column;
-    }
-
-    &__header {
-      color: rgb(30, 33, 44);
-      font-family: Lato;
-      font-size: 46px;
-      font-weight: 900;
-      padding-bottom: 60px;
-    }
-
-    &__tittle {
-      color: rgb(30, 33, 44);
-      font-family: Ubuntu;
-      font-size: 28px;
-      font-weight: 700;
-      padding-bottom: 12px;
-    }
-
-    &__text {
-      width: 575px;
-      color: rgb(120, 122, 128);
-      font-family: Ubuntu;
-      font-size: 16px;
-      font-weight: 400;
-      padding-bottom: 48px;
-    }
-
-    &__box {
-      display: flex;
-      gap: 20px;
-
-      &__png {
-        width: 24px;
-        height: 24px;
-      }
-
-      //   &__text {
-      //   }
-    }
-  }
-
-  &__section {
-    padding-bottom: 120px;
-
-    &__tittle {
-      color: rgb(30, 33, 44);
-      font-family: Ubuntu;
-      font-size: 46px;
-      font-weight: 700;
-      padding-bottom: 60px;
-    }
-
-    &__items {
-      display: flex;
-      gap: 30px;
-    }
+    gap: 30px;
+    padding-bottom: 85px;
+    align-items: center;
+    text-align: center;
 
     &__item {
-      width: 285px;
-      height: 192px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 230px;
+      height: 154px;
+      border-radius: 4px;
+      box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.05),
+        0px 12px 10px -6px rgba(255, 90, 48, 0.08),
+        0px 26px 24px -10px rgba(255, 90, 48, 0.1),
+        0px 60px 80px -20px rgba(255, 90, 48, 0.16);
 
-      &__top {
-        display: flex;
-        gap: 23px;
-        align-items: center;
-        padding-bottom: 16px;
+      &__box {
+        padding: 32px 70px;
       }
 
-      &__num {
-        color: rgb(215, 218, 221);
-        font-family: Ubuntu;
-        font-size: 46px;
-        font-weight: 700;
-      }
-
-      &__line {
-        bottom: none;
-        border: 1px dashed rgb(215, 218, 221);
+      &__img {
+        width: 52px;
+        height: 48.55px;
       }
 
       &__tittle {
+        width: 125px;
+        height: 30px;
+        align-items: center;
         color: rgb(30, 33, 44);
         font-family: Ubuntu;
         font-size: 20px;
         font-weight: 700;
-        padding-bottom: 8px;
-      }
 
-      &__text {
-        color: rgb(120, 122, 128);
-        font-family: Ubuntu;
-        font-size: 16px;
-        font-weight: 400;
+        &_dark {
+          color: white;
+        }
       }
     }
-  }
-}
-
-.benefits {
-  background: rgb(30, 33, 44);
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-
-  &__tittle {
-    color: rgb(255, 255, 255);
-    font-family: Ubuntu;
-    font-size: 46px;
-    font-weight: 700;
-    padding-top: 80px;
-    padding-bottom: 24px;
-  }
-
-  &__text {
-    color: rgb(255, 255, 255);
-    font-family: Ubuntu;
-    font-size: 18px;
-    font-weight: 400;
-    opacity: 0.6;
-    width: 810px;
-  }
-
-  &__items {
-    display: flex;
-    gap: 94px;
-    padding-top: 60px;
-    padding-bottom: 100px;
-  }
-
-  &__item {
-    &__img {
-      width: 48px;
-      height: 48px;
-    }
-
-    &__tittle {
-      color: rgb(255, 255, 255);
-      font-family: Ubuntu;
-      font-size: 20px;
-      font-weight: 700;
-    }
-
-    &__text {
-      color: rgb(255, 255, 255);
-      font-family: Ubuntu;
-      font-size: 16px;
-      font-weight: 400;
-      opacity: 0.6;
-      width: 285px;
-      height: 78px;
-    }
-  }
-
-  &__line {
-    opacity: 0.4;
-    width: 0;
-    height: 188px;
-  }
-
-  &__btn {
-    color: rgb(255, 255, 255);
-    font-family: Ubuntu;
-    font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
-    width: 390px;
-    height: 52px;
-    border-radius: 4px;
-    background: rgb(255, 90, 48);
   }
 }
 
@@ -331,7 +180,8 @@
   }
 
   &__content {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     align-items: center;
     justify-content: center;
@@ -372,141 +222,26 @@
       font-size: 14px;
       font-weight: 400;
     }
-  }
 
-  &__footer {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    text-align: center;
-    align-items: center;
-
-    &__text {
-      color: rgb(30, 33, 44);
-      font-family: Ubuntu;
-      font-size: 28px;
-      font-weight: 700;
-    }
-
-    &__button {
-      width: 224px;
-      height: 52px;
-      color: rgb(255, 255, 255);
-      font-family: Ubuntu;
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 52px;
-      letter-spacing: 0.5px;
+    &__footer {
+      display: flex;
+      justify-content: center;
+      gap: 17px;
       text-align: center;
-      text-transform: uppercase;
-      border-radius: 4px;
-      background: rgb(255, 90, 48);
-    }
-  }
-}
-
-.pricing {
-  background: rgb(244, 245, 247);
-  padding-bottom: 120px;
-  padding-top: 80px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-
-  &__tittle {
-    color: rgb(30, 33, 44);
-    font-family: Ubuntu;
-    font-size: 46px;
-    font-weight: 700;
-  }
-
-  &__text {
-    color: rgb(120, 122, 128);
-    font-family: Ubuntu;
-    font-size: 18px;
-    font-weight: 400;
-    padding-bottom: 60px;
-    padding-top: 24px;
-  }
-
-  &__done {
-    width: 24px;
-    height: 24px;
-  }
-
-  &__table {
-    width: 1230px;
-    box-sizing: border-box;
-    /* gray/300 */
-    border: 1px solid rgb(229, 232, 237);
-    border-radius: 4px;
-    /* shadow/small */
-    box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03),
-      0px 12px 10px -6px rgba(154, 156, 165, 0.04),
-      0px 30px 24px -10px rgba(154, 156, 165, 0.05),
-      0px 80px 80px -20px rgba(154, 156, 165, 0.08);
-    /* white */
-    background: rgb(255, 255, 255);
-
-    &__thead {
-      padding-top: 32px;
-      color: rgb(30, 33, 44);
-      font-family: Ubuntu;
-      font-size: 24px;
-      font-weight: 700;
+      align-items: center;
 
       &__text {
-        color: rgb(120, 122, 128);
+        color: rgb(66, 69, 81);
         font-family: Ubuntu;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 700;
       }
-    }
 
-    &__vertical {
-      color: rgb(66, 69, 81);
-      font-family: Ubuntu;
-      font-size: 16px;
-      font-weight: 400;
-      text-align: left;
-      padding-left: 24px;
-      padding-top: 16px;
-      padding-bottom: 16px;
-
-      &_bold {
-        color: rgb(30, 33, 44);
-        font-family: Ubuntu;
-        font-size: 18px;
-        font-weight: 700;
-      }
-    }
-
-    &__gorizont {
-      background: rgb(244, 245, 247);
-    }
-
-    &__btn {
-      color: rgb(255, 90, 48);
-      font-family: Ubuntu;
-      font-size: 12px;
-      font-weight: 700;
-      line-height: 36px;
-      letter-spacing: 0.5px;
-      text-align: center;
-      text-transform: uppercase;
-      box-sizing: border-box;
-      border: 1px solid rgb(255, 90, 48);
-      border-radius: 4px;
-      width: 143px;
-      height: 36px;
-      margin-top: 32px;
-      margin-bottom: 32px;
-
-      &:hover {
-        color: white;
-        background-color: rgb(255, 90, 48);
+      &__button {
+        border: none;
+        width: 24px;
+        height: 24px;
+        background: none;
       }
     }
   }
@@ -521,7 +256,8 @@
   text-align: center;
 
   &__header {
-    padding-bottom: 170px;
+    padding-bottom: 92px;
+    padding-top: 120px;
 
     &__tittle {
       color: rgb(30, 33, 44);
@@ -538,6 +274,64 @@
 
     // &__item {
     // }
+  }
+
+  &__content {
+    display: flex;
+    gap: 135px;
+
+    &__right {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+
+      &__text {
+        color: rgb(30, 33, 44);
+        font-family: Ubuntu;
+        font-size: 46px;
+        font-weight: 700;
+        padding-bottom: 60px;
+      }
+
+      &__avatar {
+        width: 72px;
+        height: 72px;
+      }
+
+      &__comment {
+        color: rgb(66, 69, 81);
+        font-family: Ubuntu;
+        font-size: 16px;
+        font-weight: 400;
+        width: 600px;
+        text-align-last: left;
+        padding-bottom: 24px;
+        padding-top: 24px;
+      }
+
+      &__name {
+        color: rgb(30, 33, 44);
+        font-family: Ubuntu;
+        font-size: 16px;
+        font-weight: 700;
+        padding-top: 24px;
+        text-align-last: left;
+        padding-bottom: 5px;
+      }
+
+      &__type {
+        color: rgb(120, 122, 128);
+        font-family: Ubuntu;
+        font-size: 14px;
+        font-weight: 400;
+        text-align-last: left;
+      }
+    }
+
+    &__img {
+      width: 495px;
+      height: 550px;
+    }
   }
 }
 
