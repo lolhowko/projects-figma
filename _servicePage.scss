@@ -68,12 +68,18 @@
     }
   }
 
+  &__content{
+    padding-top: 80px;
+    padding-bottom: 180px;
+  }
+
   &__pages {
     display: flex;
     padding-bottom: 40px;
     gap: 8px;
 
     &__name {
+      text-decoration: none;
       color: rgb(66, 69, 81);
       font-family: Ubuntu;
       font-size: 14px;

@@ -1,23 +1,23 @@
-.header {
+.headerMain {
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
   gap: 180px;
 }
-.header__nav {
+.headerMain__nav {
   display: flex;
   gap: 63px;
   align-items: center;
 }
-.header__logo {
+.headerMain__logo {
   width: 104.5px;
   height: 19.6px;
 }
-.header__links {
+.headerMain__links {
   display: flex;
   gap: 40px;
 }
-.header__link {
+.headerMain__link {
   width: 71px;
   color: rgb(66, 69, 81);
   font-family: Ubuntu;
@@ -25,24 +25,24 @@
   font-weight: 700;
   text-decoration: none;
 }
-.header__contacts {
+.headerMain__contacts {
   display: flex;
   gap: 40px;
 }
-.header__contact {
+.headerMain__contact {
   display: flex;
   gap: 12px;
   width: 175px;
 }
-.header__contact__img {
+.headerMain__contact__img {
   width: 40px;
   height: 40px;
 }
-.header__contact__info {
+.headerMain__contact__info {
   display: flex;
   flex-direction: column;
 }
-.header__contact__action {
+.headerMain__contact__action {
   color: rgb(66, 69, 81);
   font-family: Ubuntu;
   font-size: 14px;
@@ -1290,12 +1290,17 @@
   font-size: 14px;
   font-weight: 700;
 }
+.header__content {
+  padding-top: 80px;
+  padding-bottom: 180px;
+}
 .header__pages {
   display: flex;
   padding-bottom: 40px;
   gap: 8px;
 }
 .header__pages__name {
+  text-decoration: none;
   color: rgb(66, 69, 81);
   font-family: Ubuntu;
   font-size: 14px;
