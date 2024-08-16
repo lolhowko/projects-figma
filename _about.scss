@@ -1,0 +1,372 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+  background: rgb(244, 245, 247);
+  background-image: url(./img/image-5.png);
+  background-position: right;
+  background-repeat: no-repeat;
+
+  &__about {
+    background-image: url(./img/image-3.png);
+  }
+
+  &__top {
+    display: flex;
+    gap: 180px;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 60px + 3px;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 104.5px;
+    height: 19.6px;
+    // background: rgb(30, 33, 44);
+  }
+
+  &__links {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__link {
+    width: 71px;
+    color: rgb(66, 69, 81);
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  &__contacts {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__contact {
+    display: flex;
+    gap: 12px;
+    width: 175px;
+
+    &__img {
+      width: 40px;
+      height: 40px;
+    }
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__action {
+      color: rgb(66, 69, 81);
+      font-family: Ubuntu;
+      font-size: 14px;
+      font-weight: 700;
+    }
+  }
+
+  &__pages {
+    display: flex;
+    padding-bottom: 40px;
+    gap: 8px;
+
+    &__name {
+      color: rgb(66, 69, 81);
+      font-family: Ubuntu;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 150%;
+
+      &:hover {
+        color: rgb(154, 156, 165);
+      }
+    }
+  }
+
+  &__tittle {
+    color: rgb(30, 33, 44);
+    font-family: Ubuntu;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 1px;
+    padding-bottom: 24px;
+  }
+
+  &__text {
+    color: rgb(120, 122, 128);
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 400;
+    width: 600px;
+    height: 90px;
+  }
+}
+
+.content {
+  &__top {
+    display: flex;
+    gap: 86px;
+    padding-bottom: 200px;
+
+    &__item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 240px;
+      height: 178px;
+    }
+    &__box {
+      padding: 32px 70px;
+    }
+
+    &__img {
+      width: 52px;
+      height: 48.55px;
+    }
+
+    &__tittle {
+      color: rgb(255, 90, 48);
+      font-family: Ubuntu;
+      font-size: 46px;
+      font-weight: 700;
+      padding-top: 8px;
+      padding-bottom: 20px;
+    }
+
+    &__text {
+      width: 240px;
+      color: rgb(30, 33, 44);
+      font-family: Ubuntu;
+      font-size: 14px;
+      font-weight: 400;
+      width: 240px;
+    }
+  }
+
+  &__comment {
+    display: flex;
+    gap: 47px;
+    margin-bottom: 120px;
+
+    &__img {
+      width: 525px;
+      height: 580px;
+      padding-top: 40px;
+    }
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+
+      &__main {
+        display: flex;
+        gap: 30px;
+      }
+
+      &__braces {
+        width: 28px;
+        height: 20px;
+      }
+
+      &__text {
+        width: 460px;
+        color: rgb(30, 33, 44);
+        font-family: Ubuntu;
+        font-size: 20px;
+        font-weight: 700;
+      }
+    }
+
+    &__bottom {
+      display: flex;
+      gap: 145px;
+      padding-top: 60px;
+      padding-left: 65px;
+
+      &_left {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+    }
+
+    &__name {
+      color: rgb(30, 33, 44);
+      font-family: Ubuntu;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    &__position {
+      color: rgb(120, 122, 128);
+      font-family: Ubuntu;
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    &__signature {
+      width: 100px;
+      height: 68px;
+    }
+  }
+
+  &__center {
+    background: rgb(244, 245, 247);
+    padding-top: 80px;
+  }
+
+  &__bottom {
+    padding-top: 180px;
+    padding-bottom: 50px;
+
+    &__tittle {
+      color: rgb(30, 33, 44);
+      font-family: Ubuntu;
+      font-size: 46px;
+      font-weight: 700;
+      text-align: left;
+    }
+
+    &__box {
+      padding-top: 60px;
+      display: flex;
+      gap: 171px;
+    }
+
+    &__items {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    &__item {
+      display: flex;
+      gap: 17px;
+      align-items: center;
+    }
+
+    &__point {
+      width: 8px;
+      height: 8px;
+      background: rgb(154, 156, 165);
+
+      &:hover {
+        background: rgb(255, 90, 48);
+      }
+    }
+
+    &__text {
+      color: rgb(154, 156, 165);
+      font-family: Ubuntu;
+      font-size: 28px;
+      font-weight: 700;
+
+      &:hover {
+        color: rgb(255, 90, 48);
+      }
+    }
+
+    &__right {
+      &__text {
+        color: rgb(66, 69, 81);
+        font-family: Ubuntu;
+        font-size: 16px;
+        font-weight: 400;
+        width: 810px;
+      }
+    }
+
+    &__img {
+      width: 810px;
+      height: 450px;
+      padding-bottom: 36px;
+    }
+  }
+}
+
+.support {
+  background: rgb(244, 245, 247);
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 180px;
+
+  &__header {
+    padding-bottom: 92px;
+    padding-top: 120px;
+
+    &__tittle {
+      color: rgb(30, 33, 44);
+      font-family: Ubuntu;
+      font-size: 46px;
+      font-weight: 700;
+      line-height: 130%;
+      letter-spacing: 0%;
+      padding-bottom: 20px;
+    }
+
+    &__items {
+      display: flex;
+      gap: 38px;
+    }
+
+    &__item {
+      width: 174px;
+      height: 134px;
+    }
+  }
+
+  &__team {
+    &__text {
+      color: rgb(120, 122, 128);
+      font-family: Ubuntu;
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    &__items {
+      padding-top: 60px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__item {
+        padding-top: 60px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      &__img {
+        width: 285px;
+        height: 340px;
+      }
+
+      &__name {
+        color: rgb(66, 69, 81);
+        font-family: Ubuntu;
+        font-size: 20px;
+        font-weight: 700;
+        padding-top: 16px;
+        padding-bottom: 4px;
+      }
+
+      &__position {
+        color: rgb(120, 122, 128);
+        font-family: Ubuntu;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+}

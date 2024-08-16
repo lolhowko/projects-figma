@@ -1,5 +1,3 @@
-
-
 .headerMain {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -95,6 +93,7 @@
   }
 
   &__button {
+    text-decoration: none;
     width: 224px;
     height: 52px;
     color: rgb(255, 255, 255);
@@ -402,6 +401,7 @@
       }
 
       &__button {
+        text-decoration: none;
         width: 207px;
         height: 52px;
         border-radius: 4px;
@@ -497,6 +497,7 @@
     }
 
     &__button {
+      text-decoration: none;
       width: 224px;
       height: 52px;
       color: rgb(255, 255, 255);
@@ -714,6 +715,7 @@
     }
 
     &__button {
+      text-decoration: none;
       width: 224px;
       height: 52px;
       color: rgb(255, 255, 255);
@@ -842,8 +844,11 @@
   display: flex;
   flex-direction: column;
 
-  // &__logo {
-  // }
+  &__logo {
+    &__img {
+      text-decoration: none;
+    }
+  }
 
   &__top {
     padding-bottom: 50px;
@@ -893,6 +898,7 @@
       }
 
       &__input {
+        padding-left: 16px;
         width: 364px;
         height: 44px;
         color: rgb(255, 255, 255);

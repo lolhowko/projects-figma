@@ -81,6 +81,7 @@
   align-items: center;
 }
 .cover__button {
+  text-decoration: none;
   width: 224px;
   height: 52px;
   color: rgb(255, 255, 255);
@@ -350,6 +351,7 @@
   font-weight: 700;
 }
 .content__part__footer__button {
+  text-decoration: none;
   width: 207px;
   height: 52px;
   border-radius: 4px;
@@ -432,6 +434,7 @@
   font-weight: 700;
 }
 .portfolio__footer__button {
+  text-decoration: none;
   width: 224px;
   height: 52px;
   color: rgb(255, 255, 255);
@@ -608,6 +611,7 @@
   font-weight: 700;
 }
 .info__footer__button {
+  text-decoration: none;
   width: 224px;
   height: 52px;
   color: rgb(255, 255, 255);
@@ -719,6 +723,9 @@
   display: flex;
   flex-direction: column;
 }
+.footer__logo__img {
+  text-decoration: none;
+}
 .footer__top {
   padding-bottom: 50px;
   display: flex;
@@ -758,6 +765,7 @@
   padding-bottom: 16px;
 }
 .footer__top__form__input {
+  padding-left: 16px;
   width: 364px;
   height: 44px;
   color: rgb(255, 255, 255);
@@ -2442,6 +2450,322 @@
 .footer__base__btn {
   width: 40px;
   height: 40px;
+}
+
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(244, 245, 247);
+  background-image: url(./img/image-5.png);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.header__about {
+  background-image: url(./img/image-3.png);
+}
+.header__top {
+  display: flex;
+  gap: 180px;
+}
+.header__nav {
+  display: flex;
+  gap: 63px;
+  align-items: center;
+}
+.header__logo {
+  width: 104.5px;
+  height: 19.6px;
+}
+.header__links {
+  display: flex;
+  gap: 40px;
+}
+.header__link {
+  width: 71px;
+  color: rgb(66, 69, 81);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.header__contacts {
+  display: flex;
+  gap: 40px;
+}
+.header__contact {
+  display: flex;
+  gap: 12px;
+  width: 175px;
+}
+.header__contact__img {
+  width: 40px;
+  height: 40px;
+}
+.header__contact__info {
+  display: flex;
+  flex-direction: column;
+}
+.header__contact__action {
+  color: rgb(66, 69, 81);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 700;
+}
+.header__pages {
+  display: flex;
+  padding-bottom: 40px;
+  gap: 8px;
+}
+.header__pages__name {
+  color: rgb(66, 69, 81);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.header__pages__name:hover {
+  color: rgb(154, 156, 165);
+}
+.header__tittle {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 1px;
+  padding-bottom: 24px;
+}
+.header__text {
+  color: rgb(120, 122, 128);
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 400;
+  width: 600px;
+  height: 90px;
+}
+
+.content__top {
+  display: flex;
+  gap: 86px;
+  padding-bottom: 200px;
+}
+.content__top__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 178px;
+}
+.content__top__box {
+  padding: 32px 70px;
+}
+.content__top__img {
+  width: 52px;
+  height: 48.55px;
+}
+.content__top__tittle {
+  color: rgb(255, 90, 48);
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  padding-top: 8px;
+  padding-bottom: 20px;
+}
+.content__top__text {
+  width: 240px;
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  width: 240px;
+}
+.content__comment {
+  display: flex;
+  gap: 47px;
+  margin-bottom: 120px;
+}
+.content__comment__img {
+  width: 525px;
+  height: 580px;
+  padding-top: 40px;
+}
+.content__comment__item {
+  display: flex;
+  flex-direction: column;
+}
+.content__comment__item__main {
+  display: flex;
+  gap: 30px;
+}
+.content__comment__item__braces {
+  width: 28px;
+  height: 20px;
+}
+.content__comment__item__text {
+  width: 460px;
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+}
+.content__comment__bottom {
+  display: flex;
+  gap: 145px;
+  padding-top: 60px;
+  padding-left: 65px;
+}
+.content__comment__bottom_left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.content__comment__name {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 700;
+}
+.content__comment__position {
+  color: rgb(120, 122, 128);
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+}
+.content__comment__signature {
+  width: 100px;
+  height: 68px;
+}
+.content__center {
+  background: rgb(244, 245, 247);
+  padding-top: 80px;
+}
+.content__bottom {
+  padding-top: 180px;
+  padding-bottom: 50px;
+}
+.content__bottom__tittle {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  text-align: left;
+}
+.content__bottom__box {
+  padding-top: 60px;
+  display: flex;
+  gap: 171px;
+}
+.content__bottom__items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.content__bottom__item {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+}
+.content__bottom__point {
+  width: 8px;
+  height: 8px;
+  background: rgb(154, 156, 165);
+}
+.content__bottom__point:hover {
+  background: rgb(255, 90, 48);
+}
+.content__bottom__text {
+  color: rgb(154, 156, 165);
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-weight: 700;
+}
+.content__bottom__text:hover {
+  color: rgb(255, 90, 48);
+}
+.content__bottom__right__text {
+  color: rgb(66, 69, 81);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+  width: 810px;
+}
+.content__bottom__img {
+  width: 810px;
+  height: 450px;
+  padding-bottom: 36px;
+}
+
+.support {
+  background: rgb(244, 245, 247);
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 180px;
+}
+.support__header {
+  padding-bottom: 92px;
+  padding-top: 120px;
+}
+.support__header__tittle {
+  color: rgb(30, 33, 44);
+  font-family: Ubuntu;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0%;
+  padding-bottom: 20px;
+}
+.support__header__items {
+  display: flex;
+  gap: 38px;
+}
+.support__header__item {
+  width: 174px;
+  height: 134px;
+}
+.support__team__text {
+  color: rgb(120, 122, 128);
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 400;
+}
+.support__team__items {
+  padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.support__team__item {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.support__team__item__img {
+  width: 285px;
+  height: 340px;
+}
+.support__team__item__name {
+  color: rgb(66, 69, 81);
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 16px;
+  padding-bottom: 4px;
+}
+.support__team__item__position {
+  color: rgb(120, 122, 128);
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header_news {
+  background-image: url(./img/image-13.jpeg);
 }
 
 * {
